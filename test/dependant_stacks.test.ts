@@ -3,7 +3,7 @@
 // import * as DependantStacks from '../lib/dependant_stacks-stack';
 
 // example test. To run these tests, uncomment this file along with the
-// example resource in lib/dependant_stacks-stack.ts
+// example resource in lib/producingStack.ts
 test('SQS Queue Created', () => {
 //   const app = new cdk.App();
 //     // WHEN

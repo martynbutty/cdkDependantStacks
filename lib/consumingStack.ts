@@ -21,7 +21,7 @@ export class consumingStack extends cdk.Stack {
             enabled: true
         });
 
-        // Use URL of prodcingStack SQS in environment var for our lambda
+        // Use URL of producingStack SQS in environment var for our lambda
         const lambdaEnvVars = {
              SQS_QUEUE_URL: props.sqsUrl
         };

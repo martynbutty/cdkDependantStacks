@@ -1,14 +1,12 @@
-# Welcome to your CDK TypeScript project
+# CDK TypeScript project example dependent stacks
 
-This is a blank project for CDK development with TypeScript.
+This is an example CDK project using TypeScript to demonstrate dependent (or linked) stacks.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+A dependent stack is where one stack creates something which is shared with another stack. CDK automatically manages 
+the dependencies for you.
 
-## Useful commands
+This code doesn't actually do anything useful. It's simply a demonstration of how dependent stacks can be coupled, and 
+later decoupled. 
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+Find out more [here](https://www.mydevnotebook.com/blog/2023/07/11/CDK-dependent-stacks)
+
